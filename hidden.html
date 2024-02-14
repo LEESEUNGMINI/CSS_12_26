@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #866552;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#hero {
+    background: url('hero.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #866552;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#rooms .room {
+    margin-bottom: 40px;
+}
+
+#rooms img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#reservationForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#reservationForm label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#reservationForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reservationForm button {
+    background-color: #866552;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#dining .restaurant {
+    margin-bottom: 40px;
+}
+
+#dining img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 0.8
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel Paradise</h1>
+        <nav>
+            <ul>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#dining">Dining</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Welcome to a Paradise Experience</h2>
+            <p>Book your stay and enjoy luxury like never before.</p>
+            <a href="#reservation" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room">
+            <img src="room1.jpg" alt="Room 1">
+            <h3>Deluxe Suite</h3>
+            <p>Experience luxury in our spacious Deluxe Suites. Perfect for a relaxing stay.</p>
+        </div>
+        <div class="room">
+            <img src="room2.jpg" alt="Room 2">
+            <h3>Premium Ocean View</h3>
+            <p>Wake up to breathtaking views of the ocean in our Premium Ocean View rooms.</p>
+        </div>
+        <!-- More rooms... -->
+    </section>
+
+    <section id="reservation">
+        <h2>Reservation</h2>
+        <form id="reservationForm">
+            <label for="checkIn">Check-In Date:</label>
+            <input type="date" id="checkIn" required>
+
+            <label for="checkOut">Check-Out Date:</label>
+            <input type="date" id="checkOut" required>
+
+            <button type="submit" class="btn">Check Availability</button>
+        </form>
+    </section>
+
+    <section id="dining">
+        <h2>Dining</h2>
+        <p>Indulge in exquisite dining at our world-class restaurants and cafes.</p>
+        <div class="restaurant">
+            <img src="restaurant1.jpg" alt="Restaurant 1">
+            <h3>All Day Dining Buffet & Bar</h3>
+            <p>Experience a variety of dishes crafted by our expert chefs.</p>
+        </div>
+        <div class="restaurant">
+            <img src="restaurant2.jpg" alt="Restaurant 2">
+            <h3>Roof-Top Lounge</h3>
+            <p>Enjoy the view from our Roof-Top Lounge while sipping on signature cocktails.</p>
+        </div>
+        <!-- More restaurants... -->
+    </section>
+    LOCATION
+16F
+SEATING CAPACITY
+ 
+162석 (룸 5개)
+예약하기
+
+All Day Dining Buffet & Bar
+합리적인 가격으로 탁 트인 도심의 전경을 바라보며 전문 셰프들이 직접 선보이는 다양한 요리를 경험할 수 있는 All Day Dining  Buffet Restaurant입니다.
+
+'From Scratch'에서 유래한 이름처럼 재료 선정부터 고객의 식탁에 오르기까지 모든 과정에서 엄격한 기준을 준수하였으며 'Star Chef by Hunam’을 이끌어온 김후남 마스터 셰프의 장인 정신으로 완성된 최상의 요리를 맛보실 수 있습니다.
+
+[From Scratch - (미리 만들어진 재료를 사용하지 않고), 맨 처음부터 새로]
+
+
+
+
+
+
+
+메뉴판 보기
+1 / 6
+Details
+Hours
+Breakfast  Buffet :  07:00 ~ 10:00
+Lunch  Buffet  :  12:00 ~ 14:30
+Dinner  Buffet  :  18:00 ~ 21:00
+Price
+Breakfast  Buffet
+-   성인 ₩39,000 / 소인 ₩20,000
+Lunch  Buffet
+-   주중   :   성인 ₩69,000 / 소인 ₩35,000
+-   주말   :   성인 ₩99,000 / 소인 ₩50,000
+Dinner  Buffet 
+-  성인 ₩99,000 / 소인 ₩50,000
+    [ 소인 : 60개월 ~ 초등학생 ]
+Location & Reservation
+위치 : 16F
+좌석수 : 162석 (룸 5개)
+예약문의 : 042-600-6006
+Benefit                
+More EVENT
+영유아 무료 (60개월 미만)
+테이블 당 탄산수 or 생수 1병 무료 제공
+와인 1+1 이벤트(매일 점심, 저녁)
+이벤트 와인 45% 할인
+콜키지 가능
+Introduction
+Master chef, "Hunam Kim"
+Hoonam Kim
+뛰어난 리더십과 수준 높은 요리로 셰프들의 셰프, 셰프들의 스승으로 불리며 ‘스타 셰프’로 널리 알려진 김후남 셰프의 진정성과 장인 정신을 더해 국내 최고 수준의 다이닝 레스토랑을 선보입니다.
+
+‘정직하게 맛있는 음식을 만들겠다.’는 소신과 ‘집중되고 수 없는 반복과 조합을 통해 좋은 요리가 얻어진다.’는 요리 철학이 담긴 미식의 세계로 여러분을 초대합니다.
+
+서울 호텔신라 셰프 (13년)
+미국 달라스와 코네티컷(5년) Chamberlain’s Steak & Chop House / The Mill on the River Restaurant / Millwright’s Restaurant
+Star chef by Hunam Restaurant Owner Chef(12년)
+CF : https://youtu.be/2gOnKtqRNFQ 
+Information
+2023년 8월 1일 이후 적용 요금입니다.
+10%의 세금이 포함된 요금입니다.
+주말 : 토, 일요일 + 공휴일
+영업장 상황에 따라 영업시간 및 가격이 변동될 수 있습니다.
+다이닝 예약문의
+TEL 042-600-6006
+
+SPECIAL OFFERS
+
+
+
+
+    <footer>
+        <p>&copy; 2023 Hotel Paradise. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

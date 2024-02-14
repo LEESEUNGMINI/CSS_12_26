@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>호텔 인더시티 다이닝</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* 기존 스타일 초기화 */
+      body,
+      h1,
+      h2,
+      h3,
+      p,
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      /* 수정된 스타일 - 레이아웃 및 디자인 향상을 위한 새로운 스타일 */
+      header {
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      header h1 {
+        color: #866552;
+        margin-bottom: 10px;
+      }
+
+      nav ul {
+        list-style: none;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      section {
+        padding: 60px 0;
+      }
+
+      #dining-details {
+        background-color: #f5f5f5;
+        padding: 40px 0;
+        text-align: center;
+      }
+
+      #dining-details h2 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      #dining-details p {
+        color: #666;
+        margin-bottom: 30px;
+      }
+
+      #dining-details .menu-details {
+        margin-bottom: 40px;
+      }
+
+      #dining-details .menu-details h3 {
+        color: #333;
+      }
+
+      #dining-details .menu-details p {
+        color: #666;
+      }
+
+      #benefits {
+        background-color: #fff;
+        padding: 60px 0;
+        text-align: center;
+      }
+
+      #benefits h2 {
+        color: #866552;
+        margin-bottom: 20px;
+      }
+
+      #benefits .benefit-item {
+        margin-bottom: 20px;
+      }
+
+      #chef-introduction {
+        padding: 60px 0;
+        text-align: center;
+      }
+
+      #chef-introduction h2 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      #chef-introduction p {
+        color: #666;
+        margin-bottom: 30px;
+      }
+
+      #chef-introduction .chef-details {
+        margin-bottom: 40px;
+      }
+
+      #chef-introduction .chef-details h3 {
+        color: #333;
+      }
+
+      #chef-introduction .chef-details p {
+        color: #666;
+      }
+
+      footer {
+        background-color: #f5f5f5;
+        padding: 20px 0;
+        text-align: center;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      footer p {
+        font-size: 0.8em;
+      }
+
+      #li1,
+      #li2,
+      #li3 {
+        border-radius: 5px;
+        font-size: 25px;
+        text-align: center;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        text-align: center;
+      }
+      header #a1 {
+        display: block;
+        width: 180px;
+        height: 90px;
+        background-image: url(./imges/ROGO.png);
+        margin-left: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background-color: #333">
+      <a id="a1" href="./MainPage_index.html"></a>
+
+      <nav style="text-align: center; box-sizing: border-box">
+        <ul>
+          <li id="li1"><a href="#dining-details">다이닝 정보</a></li>
+          <li id="li2"><a href="#benefits">혜택</a></li>
+          <li id="li3"><a href="#chef-introduction">셰프 소개</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="dining-details">
+      <h2>다이닝 상세 정보</h2>
+      <div class="menu-details">
+        <h3>영업 시간</h3>
+        <p>아래는 다이닝의 운영 시간입니다:</p>
+        <ul>
+          <li>아침 뷔페: 07:00 ~ 10:00</li>
+          <li>점심 뷔페: 12:00 ~ 14:30</li>
+          <li>저녁 뷔페: 18:00 ~ 21:00</li>
+        </ul>
+      </div>
+      <div>
+        <img src="./imges/DINING1.jpg" alt="The Scratch" style="width: 100%" />
+      </div>
+      <div class="menu-details">
+        <h3>가격</h3>
+        <p>다양한 식사 시간에 대한 가격은 다음과 같습니다:</p>
+        <ul>
+          <li>아침 뷔페 - 성인 ₩39,000 / 소인 ₩20,000</li>
+          <li>점심 뷔페 (주중) - 성인 ₩69,000 / 소인 ₩35,000</li>
+          <li>점심 뷔페 (주말) - 성인 ₩99,000 / 소인 ₩50,000</li>
+          <li>저녁 뷔페 - 성인 ₩99,000 / 소인 ₩50,000</li>
+          <li>[ 소인 : 60개월 ~ 초등학생 ]</li>
+        </ul>
+      </div>
+
+      <div class="menu-details">
+        <h3>위치 및 예약</h3>
+        <p>
+          다이닝은 16층에 위치하며, 총 162석과 5개의 개별 룸이 있습니다. 예약은
+          042-600-6006로 문의해주세요.
+        </p>
+      </div>
+    </section>
+
+    <section id="benefits">
+      <h2>혜택</h2>
+      <div class="benefit-item">
+        <p>더 많은 이벤트 혜택:</p>
+        <ul>
+          <li>영유아 무료 (60개월 미만)</li>
+          <li>테이블 당 탄산수 또는 생수 1병 무료 제공</li>
+          <li>와인 1+1 이벤트 (매일 점심, 저녁)</li>
+          <li>이벤트 와인 45% 할인</li>
+          <li>콜키지 가능</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="chef-introduction">
+      <h2>셰프 소개</h2>
+      <div class="chef-details">
+        <h3>마스터 셰프, "후남 김"</h3>
+        <p>
+          후남 김 마스터 셰프는 뛰어난 리더십과 높은 요리 실력으로 국내 최고
+          수준의 다이닝 레스토랑을 선보입니다.
+        </p>
+      </div>
+      <iframe
+        width="100%"
+        height="200px"
+        src="https://www.youtube.com/embed/2gOnKtqRNFQ?si=Q_Y6zT7pQJrq1QiH&amp;controls=0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <div class="chef-details">
+        <h3>경력</h3>
+        <p>
+          후남 김 마스터 셰프는 서울 호텔신라에서 13년간 근무하였으며, 미국
+          달라스와 코네티컷에서 5년 동안 Chamberlain’s Steak & Chop House, The
+          Mill on the River Restaurant, Millwright’s Restaurant에서 경험을
+          쌓았습니다.
+        </p>
+      </div>
+
+      <div class="chef-details">
+        <h3>Star Chef by Hunam 레스토랑 소유주</h3>
+        <p>
+          후남 김은 Star Chef by Hunam 레스토랑의 오너이자 셰프로서 12년간
+          레스토랑 운영에 참여했습니다.
+        </p>
+      </div>
+
+      <div class="chef-details">
+        <h3>CF 소개</h3>
+        <p>
+          CF를 통해 후남 김 마스터 셰프의 요리와 철학을 감상해보세요:
+          <a href="https://youtu.be/2gOnKtqRNFQ">CF 바로가기</a>
+        </p>
+      </div>
+
+      <div class="chef-details">
+        <h3>기타 정보</h3>
+        <p>
+          2023년 8월 1일 이후 적용된 요금은 10%의 세금이 포함되어 있습니다.
+          주말에는 토, 일요일 및 공휴일에 따라 영업 시간과 가격이 변동될 수
+          있습니다.
+        </p>
+      </div>
+
+      <div class="chef-details">
+        <h3>다이닝 예약 문의</h3>
+        <p>다이닝 예약에 대한 자세한 문의는 042-600-6006으로 문의하십시오.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 호텔 인더시티. 판권 소유.</p>
+    </footer>
+  </body>
+</html>
